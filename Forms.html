@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <!-- form starts here -->
+    <h1>Account <br>Opening Form</h1>
+    <form>
+    <b>Name:</b> 
+    <br>
+    <input type="text" name="name"  placeholder="Prefix" maxlength="20" required="required">
+    <input type="text" name="name"  placeholder="First Name" maxlength="10" required="required">
+    <input type="text" name="name"  placeholder="Last Name" maxlength="10" required="required">
+    <br>
+    <br>
+    <label for="email"><b>Email</b></label>
+    <input id="email" type="email" name="Email" placeholder="example@example.com" required>
+    <label for="password"><b>Password</b></label>
+     <input id="password" type="password" name="Password" placeholder="Enter Your Password" required>
+    <br>
+    <br>
+    <b>Date Of Birth:</b>
+    <input type="date" name="Date"  placeholder="Date" size="90">
+    <b>Telephone</b>
+    <input type="tel" name="Telephone" placeholder="Valid Phone Number">
+    <br>
+    <br>
+    <b>Address</b>
+    <input type="text" name="Address" size="80">
+    <br>
+    <p><b>CITY</b>  
+    <select name="CITY" >
+        <option>Karachi</option>
+        <option>Hyderabad</option>
+        <option>Peshawar</option>
+        <option>Gawadar</option>
+    </select>
+    <b>State/Province</b> 
+    <select name="State/Province" >
+        <option>Sindh</option>
+        <option>Punjab</option>
+        <option>Balochistan</option>
+        <option>KPK</option>
+    </select>
+    </p>
+    <p>
+        <b>Gender:</b>
+        <input id="male" type="radio" name="Gender" value="male" checked>
+        <label for="male">Male</label>
+        <input id="female" type="radio" name="Gender" value="female">
+        <label for="female">Female</label>
+    </p>
+    <b>Please Select Your Skills Here:</b>
+        <br />
+        <input type="checkbox" name="qualification" 
+        value="Communication" checked="checked" /> Communication
+        <input type="checkbox" name="qualification" 
+        value=" Active listening" /> Active listening
+        <input type="checkbox" name="qualification" 
+        value="Creativity" /> Creativity
+        <input type="checkbox" name="qualification" 
+        value="Leadership" /> Leadership <br>
+        <br>
+        <p>Why are you applying this form?</p>
+ <textarea name="comments" cols="30" rows="4" placeholder="Enter Your Comments"></textarea> 
+    <br>
+     <br>
+    Upload Your Image Here<br>
+    <input type="file" name="image" required > <input type="submit" name="submit"><br>
+    <input type="image" src="./Assets/069b549bca0fb7a9ebc9334559191808.jpg" height="25" width="50">
+<!-- Form ends here -->  
+</form>
+<p><a href="./Index.html">Go Back To Home</a></p>
+</body>
+</html>
